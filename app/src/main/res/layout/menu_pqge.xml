@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/bhtplay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+
+        android:layout_above="@+id/BExit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:alpha="0.80"
+        android:background="#2e4240"
+        android:orientation="horizontal"
+        android:state_focused="true"
+        android:state_pressed="true"
+        android:text="Aide"
+        android:textColor="@android:color/background_light"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/BExit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:alpha="0.80"
+        android:background="#2e4240"
+        android:orientation="horizontal"
+        android:text="Exit"
+        android:textColor="@android:color/background_light"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BStart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+        android:alpha="0.80"
+        android:background="#2e4240"
+        android:clickable="?android:attr/windowNoTitle"
+        android:orientation="horizontal"
+        android:text="Play"
+        android:textColor="@android:color/background_light"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
